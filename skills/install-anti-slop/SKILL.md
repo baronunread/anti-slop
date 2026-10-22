@@ -11,6 +11,8 @@ Anti-slop is vendored code: the target repository owns its rules, diagnostics, t
 
 Read the repository's agent instructions and `git status`. Identify its package manager, Oxlint/Vite+ configuration, and any existing anti-slop entry points, including renamed or relocated copies referenced by `jsPlugins`.
 
+This is baronunread's fork. Always also read [Bun and local conventions](references/bun.md); it overrides the commands below.
+
 - **Existing installation — update, upgrade, migrate, or reconfigure:** read [Update a vendored installation](references/update.md) and follow that procedure instead of the fresh-install steps below.
 - **No installation — fresh install:** follow the procedure below. If the user requested an update but no installation can be found, confirm the target before installing.
 
